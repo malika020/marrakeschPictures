@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="marraksch_picture.css">
+            <script type="module" aria-disabled=""src="WebKomponente_mitTemplate.js"></script>
+            <script src="https://code.jquery.com/jquery-latest.js"></script>
+        
+            <title>Marrakesch Pictures</title>
+        
+        <style> 
+            
+            body{ 
+                background-image: url(wueste1.png);
+                background-size: 180%;
+            
+            }
+        
+        </style>
+    
+    </head>
+    
+    <body>
+      
+        <template id="template">
+            <style>
+                
+            h1 
+            {color: black; font-family:fantasy; font-size: 34px; font-weight: bold;      text-align: left;}
+            p
+            {font-family:fantasy; font-size: 18px; font-weight: bold;}
+                
+            </style>
+            
+            <div id="marrakeschClass"> 
+            
+            <h1 id="ueberschrift1"></h1>
+            
+            <img id="bild1">
+                
+            <p id="text1"></p>
+            
+            </div>
+            
+        </template>
+        
+        
+        
+        
+       
+        
+        <marrakesch-pictures></marrakesch-pictures>
+        
+ 
+    
+    </body>
+
+</html>
